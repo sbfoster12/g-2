@@ -5,7 +5,7 @@ A change to the readme.
 Some useful git commands
 
 ## Delete a remote branch
-$ git push origin --delete <branch> # Git version 1.7.0 or newer 
+"$ git push origin --delete <branch> # Git version 1.7.0 or newer"
 $ git push origin :<branch> # Git versions older than 1.7.0
 
 ## Delete a local branch
