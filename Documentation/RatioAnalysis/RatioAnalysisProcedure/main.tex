@@ -1,0 +1,55 @@
+\documentclass{article}
+
+\usepackage{amssymb,amsmath,longtable, gensymb}
+
+\usepackage{enumitem}
+\setlist{parsep=0pt,listparindent=\parindent}
+
+\usepackage[pdftex]{graphicx}
+\graphicspath{ {Images/} }
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{caption,subcaption}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=red,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\usepackage[backend=biber,sorting=none]{biblatex}
+\addbibresource{mybib.bib}
+
+
+\begin{document}
+
+\title{Making Root Trees for the BU Ratio Analysis}
+\author{Sean Foster \\ sbfoster@bu.edu}
+\date{\today}
+\maketitle
+
+% \renewcommand{\abstractname}{Different Abstract Name}
+\begin{abstract}
+
+   \input{abstract.tex}
+
+\end{abstract}
+
+\tableofcontents
+
+\input{Intro.tex}
+
+\input{CreatingRootTrees.tex}
+
+%\input{appendix.tex}
+
+\clearpage
+\printbibliography
+
+
+\section*{Acknowledgements}
+
+\end{document}
